@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper {
+            width: 2000px;
+            display: flex;
+            margin: 0 auto;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            padding: 10px 0px 0px;
+            background-image: url(imagens/menu.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left center;
+        }
+        .header {
+            min-height: 150px;
+            background-image: url(imagens/contato.jpg)
+            background-size: contain;
+        }
+        .content {
+            min-height: 300px;
+            padding: 15px;
+        }
+        body {
+                background-image: url(imagens/linhas.jpg);
+                background-size: cover;
+        }
+        .form {
+            padding-left: 560px;
+        }
+        .footer {
+            padding-left: 15px;
+            background-color: #401C8C;
+            min-height: 40px;
+            display: flow-root;
+        } 
+    </style>
+    </head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <font face="verdana"><ul>
+                <h3>Clínica Sonar</h3>
+                <li><a href="index.html" style="color: 3D2279"><strong>Voltar</strong></a></li><br>
+                <li><a href="about.html" style="color: 3D2279"><strong>Sobre a Sonar</strong></a></li><br>
+                <li><a href="schedules.html" style="color: 3D2279"><strong>Horário de atendimento</strong></a></li>
+            </ul></font>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <center>
+                    <img src="imagens/contato.jpg" width="1310" height="200" alt="médica de óculos e cabelos castanhos analisando ouvido de paciente loira com instrumento e a frase na frente: Sonar, descubra o mundo sinta o som."/>
+                </center>
+            </div>
+            <div>
+                <center><h2><font face="verdana" color="#7352bd">Entre em contato para mais informações</h2><br>
+                <font face="verdana" color="696969"><p><font face="verdana" color="202020"><strong>Telefone:&nbsp;</strong></font>(12) 9872-4397</p>
+                <p><font face="verdana" color="202020"><strong>WhatsApp:&nbsp;</strong></font>(12) 9845-7623</p><br>
+                <p><font face="verdana" color="202020"><strong>Endereço:&nbsp;</strong></font>Av. Paulista, 910 - Bela Vista, São Paulo - SP, 01310-100</p></font>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.085337521932!2d-46.653912289398086!3d-23.565378378708598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c785f13d75%3A0x6fdbf1fdb26e5925!2sAv.%20Paulista%2C%20910%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1698802330507!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+            </div>
+            <div>
+                <center><h3><font face="verdana" color="#7352bd">Caso prefira, insira seus dados abaixo para que nossa equipe entre em contato</h3><br></center>
+                    <div class="form">
+                        <font face="verdana" color="696969"><form name="contact form" method="post">
+                        <label>Nome:</label><br><input type="text" name="name"><br>
+                        <label>Idade:</label><br><input type="number" min="18" max="100" name="age"><br>
+                        <label>Email:</label><br><input type="text" name="email"><br>
+                        <label>Assunto:</label><br><input type="text" name="topic"><br>
+                        <label>Mensagem:</label><br><textarea name="message"></textarea><br>
+                        <button type="button">Enviar</button>&nbsp;&nbsp;<button type="reset">Limpar</button>
+                    </form></font>
+                    </div>
+            </div>
+            <p><i>&nbsp;Resposta em até 24 horas*</i></p>
+            <div class="footer" style="color: white">
+                <p><strong><font face="verdana" color="C4C4C4">Telefone:</strong>&nbsp;(12) 9872-4397&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email:</strong>&nbsp;sonar.sons@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Endereço:</strong>&nbsp;Av. Paulista, 910 - Bela Vista, São Paulo - SP, 01310-100</font></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

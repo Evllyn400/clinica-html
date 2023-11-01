@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+    body {
+        margin: 0;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper {
+        width: 2000px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        padding: 10px 0px 0px;
+        background-image: url(imagens/menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+    }
+    .header {
+        min-height: 150px;
+        background-image: url(imagens/clinica.jpg)
+        background-size: contain;
+    }
+    .content {
+        min-height: 300px;
+        padding: 20px;
+    }
+    table thead th {
+        background-color: rgb(44, 44, 44);
+        color: white;
+    }
+    table tbody tr:nth-child(even) td {
+        background-color: #f1e9ff;
+    }
+    body {
+            background-image: url(imagens/linhas.jpg);
+            background-size: cover;
+    }
+    .footer {
+        padding-left: 15px;
+        background-color: #401C8C;
+        min-height: 15px;
+        display: inline-flex;
+    } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <font face="verdana"><ul>
+                <h3>Clínica Sonar</h3>
+                <li><a href="index.html" style="color: 3D2279"><strong>Voltar</strong></a></li><br>
+                <li><a href="about.html" style="color: 3D2279"><strong>Sobre a Sonar</strong></a></li><br>
+                <li><a href="contacts.html" style="color: 3D2279"><strong>Contato</strong></a></li>
+            </ul></font>
+        </div>
+        <div class="main">
+            <div class="header">
+                <center>
+                <img src="imagens/clinica.jpg" width="1310" height="200" alt="mulher de jaleco segurando tablet com a frase na frente: Sonar, descubra o mundo sinta o som."/>
+                </center>
+        </div>
+            <div class="content">
+                <h3><font face="verdana" color="202020"><center>Horários de funcionamento e Valores</center></font></h3>
+                <font face="verdana" color="727272"><table width="600" align="center" cellspacing="0" summary="tabela que informa as áreas de atuação da clínica, os valores de cada procedimento e os horários em que eles ocorrem">
+                <thead>
+                    <tr>
+                        <th><font face="verdana">Segmentos</font></th>
+                        <th><font face="verdana">Valores</font></th>
+                        <th><font face="verdana">Horário</font></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Audiometria</td>
+                        <td>R$150</td>
+                        <td>8:00 às 16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Reabilitação auditiva</td>
+                        <td>R$100</td>
+                        <td>8:00 às 17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Manutenção de aparelhos auditivos</td>
+                        <td>A partir de R$200</td>
+                        <td>12:00 às 17:00</td>  
+                    </tr>
+                    <tr>
+                        <td>Serviço de acessibilidade</td>
+                        <td>Consultar</td>
+                        <td>11:00 às 17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Grupos de apoio</td>
+                        <td>R$0</td>
+                        <td>Sex e Sáb das 16:00 às 17:00</td>
+                    </tr>
+                </tbody>
+                </table></font>
+                <font face="verdana" color="696969"><ul>
+                    <h2><font face="verdana" color="#7352bd"><center>Descrição dos Serviços Oferecidos</center></font></h2>
+                    <li><strong>Espaços de Audiometria de Ponta:</strong> Contamos com salas de audiometria equipadas com tecnologia de última geração, proporcionando avaliações auditivas precisas e confortáveis.</li><br>
+                    <li><strong>Sala de Reabilitação Auditiva Personalizada:</strong> Para aqueles que necessitam de reabilitação auditiva, oferecemos um ambiente acolhedor onde terapeutas qualificados trabalham individualmente com cada paciente para maximizar seu potencial auditivo.</li><br>
+                    <li><strong>Centro de Fornecimento e Manutenção de Aparelhos Auditivos:</strong> Dispomos de uma equipe especializada em ajudá-lo a escolher os aparelhos auditivos mais adequados às suas necessidades, além de oferecer serviços de manutenção e ajustes regulares para garantir que você obtenha o máximo de benefícios.</li><br>
+                    <li><strong>Serviços de Acessibilidade Avançados:</strong> Na Sonar, acreditamos na igualdade de acesso. Oferecemos serviços de interpretação em língua de sinais, legendagem e orientação sobre tecnologias assistivas para tornar a sua vida mais fácil e acessível.</li><br>
+                    <li><strong>Apoio Psicológico e Grupos de Apoio:</strong> Compreendemos que lidar com a perda auditiva pode ser desafiador em níveis emocionais. Nossa clínica oferece apoio psicológico especializado e grupos de apoio onde você pode compartilhar experiências e estratégias com outros que passam por desafios semelhantes.</li><br>
+                </ul></font>
+            </div>
+            <div class="footer" style="color: white">
+                <p><strong><font face="verdana" color="C4C4C4">Telefone:</strong>&nbsp;(12) 9872-4397&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email:</strong>&nbsp;sonar.sons@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Endereço:</strong>&nbsp;Av. Paulista, 910 - Bela Vista, São Paulo - SP, 01310-100</font></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
